@@ -1,20 +1,31 @@
 import React from 'react';
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar'
-import Hero from './components/Hero';
+import Home from './components/Home';
+import Footer from './components/Footer';
+import Compassion from './components/Compassion';
+import Change from './components/Change';
+import Savelives from './components/Savelives';
 import About from './components/About';
-import Information from './components/Information';
-import Rescues from './components/Rescues';
+import Donate from './components/Donate';
 
-function App() {
+export default function App() {
   return (
-   <div>
-   <Navbar/>
-   <Hero/>
-   <About/>
-   <Information/>
-   <Rescues/>
-   </div>
+    <BrowserRouter>
+       <Navbar/>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="compassion" element={<Compassion />} />
+      <Route path="change" element={<Change />} />
+      <Route path="savelives" element={<Savelives />} />
+      <Route path="about" element={<About />} /> 
+    <Route path="donate" element={<Donate />} /> 
+    </Routes>
+    <Footer/>
+  </BrowserRouter>
   );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
