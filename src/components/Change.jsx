@@ -20,15 +20,14 @@ const Change = () => {
   <div className='w-full  pl-10 pr-10 md:pl-20 md:pr-20 pb-10 pt-20'>
     <div className='border-r border-2 border-black flex flex-col md:flex-row justify-center rounded'>
       
+      <div className=' bg-cagingorchaining-img bg-cover bg-center md:w-1/2'>
+        <div className='max-w w-full h-screen bg-white bg-opacity-10 pb-10 pl-20 pr-20'></div>
+      </div>
       <div className='flex justify-center items-center md:w-1/2 p-10'>
           <div className='flex flex-col justify-center'>
             <h1 className='font-bold text-xl mb-5'>Chaining & Caging</h1>
             <p>Many dog owners in Bali still adhere to the cruel practice of caging or chaining their pets, often without access to food, water or bedding, and at the mercy of heavy rains or blazing direct sunlight.</p>
           </div>
-      </div>
-
-      <div className=' bg-cagingorchaining-img bg-cover bg-center md:w-1/2'>
-        <div className='max-w w-full h-screen bg-white bg-opacity-10 pb-10 pl-20 pr-20'></div>
       </div>
 
     </div>
@@ -57,15 +56,15 @@ const Change = () => {
   <div className='w-full  pl-10 pr-10 md:pl-20 md:pr-20 pb-10 pt-20'>
     <div className='border-r border-2 border-black flex flex-col md:flex-row justify-center rounded'>
       
+      <div className=' bg-responsibletourism-img bg-cover bg-center md:w-1/2'>
+        <div className='max-w w-full h-screen bg-white bg-opacity-10 pb-10 pl-20 pr-20'></div>
+      </div>
+
       <div className='flex justify-center items-center md:w-1/2 p-10'>
           <div className='flex flex-col justify-center'>
             <h1 className='font-bold text-xl mb-5'>Responsible tourism</h1>
             <p>Many Bali businesses and attractions geared towards tourists profit from the exploitation of animals by forcing them into miserable, unnatural lives. The choices you make as a visitor in Bali have the power to prolong or prevent their suffering. </p>
           </div>
-      </div>
-
-      <div className=' bg-responsibletourism-img bg-cover bg-center md:w-1/2'>
-        <div className='max-w w-full h-screen bg-white bg-opacity-10 pb-10 pl-20 pr-20'></div>
       </div>
 
     </div>
