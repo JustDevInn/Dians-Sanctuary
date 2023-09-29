@@ -1,7 +1,16 @@
 import React from 'react'
 import Typed from 'react-typed';
+import { Link } from 'react-router-dom';
 
 const About = () => {
+
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth', // Add smooth scrolling effect
+        });
+      };
+
   return (
     <div>
          {/* Hero banner */}
@@ -66,9 +75,11 @@ Determined to make a difference, he laid the foundation for "Ibu's Sanctuary," a
             <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4'>hands.</p>
             </div>
             <p className='text-white py-2 rounded bg-gray-600 bg-opacity-50 w-4/5 md:w-1/2 pl-2'>Support us to change the lives of animals, by
-changing the world they live in. Make a monthly
-pledge today..</p>
-            <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300'>DONATE</button>
+                changing the world they live in. Make a monthly
+                pledge today..</p>
+            <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300'>
+                <Link to="/donate" onClick={scrollToTop}>DONATE</Link>
+            </button>
         </div>
     </div>
     </div>

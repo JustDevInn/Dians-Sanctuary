@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Typed from 'react-typed';
 import Chewy from '../assets/chewy.jpg'
 import Dog1 from '../assets/dog1.jpg';
@@ -6,6 +7,14 @@ import Dog2 from '../assets/dog2.jpg';
 import Dog3 from '../assets/dog3.jpg';
 
 const Home = () => {
+
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth', // Add smooth scrolling effect
+        });
+      };
+
   return (
     // Hero banner
     <div>
@@ -24,7 +33,7 @@ const Home = () => {
             />
             </div>
             <p className='md:text-2xl text-xl font-bold text-gray-300 py-2 rounded bg-gray-600 bg-opacity-50 w-3/5 pl-2'>Adopting a rescued animal is an act of <a href='/' class="underline decoration-[#00df9a]">kindness</a>.</p>
-            <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-3 py-3'>Donate</button>
+            <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-3 py-3'><Link to="/donate" onClick={scrollToTop}>DONATE</Link></button>
         </div>
     </div>
 
@@ -37,7 +46,8 @@ const Home = () => {
           <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>A sanctuary for all animals.</h1>
           <p>"When we learn to <a href='/' class="underline decoration-[#00df9a]">respect</a> all life,<br></br>
               we learn to <a href='/' class="underline decoration-[#00df9a]">love</a> all life."</p>
-          <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-3 py-3 mx-auto md:mx-0'>Read more.. </button>
+          <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-3 py-3 mx-auto md:mx-0'>
+          <Link to="/about" onClick={scrollToTop}>Read more..</Link> </button>
         </div>
       </div>
     </div>

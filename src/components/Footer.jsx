@@ -29,14 +29,17 @@ const Footer = () => {
                 <ul>
                     <li className='p-2' text-sm>Education</li>
                     <li className='p-2' text-sm>Law</li>
-                    <li className='p-2' text-sm>Rabbies</li>
                     <li className='p-2' text-sm>Stories</li>
                 </ul>
             </div>
             <div>
                 <h6 className="font-medium text-gray-400 pl-1">Save lives with us</h6>
                 <ul>
-                    <li className='p-2' text-sm>Donate</li>
+                    <li className='p-2' text-sm>
+                        <Link to="/donate" onClick={scrollToTop}>
+                          Donate
+                        </Link>
+                    </li>
                     <li className="p-2">
                         <Link to="/savelives" onClick={scrollToTop}>
                           Adoption

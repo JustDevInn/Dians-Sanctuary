@@ -3,6 +3,14 @@ import Typed from 'react-typed';
 import {FaShieldDog} from 'react-icons/fa6';
 
 const Savelives = () => {
+
+  const scrollToBottom = () => {
+    window.scrollTo({
+      bottom: 0,
+      behavior: 'smooth', // Add smooth scrolling effect
+    });
+  };
+
   return (
     <div>
     {/* Hero banner */}
@@ -71,7 +79,7 @@ change the course of theirs. */}
                 change the course of theirs.</p>
             </div>
             <p className=' text-white py-2 rounded bg-gray-600 bg-opacity-50 w-4/5  md:w-3/5 pl-2'>Fostering gives you the chance to make a difference in the life of a rescued animal, without any of the long-term commitments.</p>
-            <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300'>Apply to foster</button>
+            <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300' onClick={scrollToBottom} >Apply to foster</button>
         </div>
     </div>
 </div>
@@ -105,7 +113,7 @@ change the course of theirs. */}
           <p className="py-6">Please use the form below to get in touch with me.</p>
         </div>
 
-        <div className=" flex justify-center items-center w-1/2">
+        <div className=" flex justify-center items-center w-full" name="applyfoster">
           <form
             action="https://getform.io/f/19890081-7383-4319-832f-c7a6294b1408"
             method="POST"

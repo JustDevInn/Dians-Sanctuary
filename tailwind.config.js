@@ -12,6 +12,10 @@ module.exports = {
         'changecourseimg-img': "url('./assets/changecourseimg.jpg')",
         'puppycare-img': "url('./assets/puppycare.jpg')",
         'aboutdog-img': "url('./assets/aboutdogimg.jpg')",
+        'cagingorchaining-img': "url('./assets/cagingorchaining.jpg')",
+        'backyardbreeders-img': "url('./assets/backyardbreeders.jpg')",
+        'dogmeattrade-img': "url('./assets/dogmeattrade.jpg')",
+        'responsibletourism-img': "url('./assets/responsibletourism.jpg')",
       }
     },
   },
