@@ -16,8 +16,8 @@ const Change = () => {
 <div className='bg-gradient-to-b from-black to-gray-800 w-full py-5 text-gray-300 px-4 pl-20 pr-20'>
         <div className='max-w-[1240px] flex justify-center flex-col'>
         <h1 className='text-xl md:text-4xl sm:text-3xl font-bold text-left pt-10 text-[#00df9a]'>Advocacy</h1>
-            <div className='flex justify-center items-center pt-2 pb-10'>
-                <h3 className='md:text-4xl sm:text-3xl text-xl py-2 text-left'>"Rescuing animals from lives of suffering is a never-ending
+            <div className='flex justify-center items-center pt-2 pb-10 '>
+                <h3 className='md:text-4xl sm:text-3xl text-xl py-2 text-left border-l'>"Rescuing animals from lives of suffering is a never-ending
                     task. Our ultimate goal is to find <span className='underline decoration-[#00df9a]'>long-term</span>, <span className='underline decoration-[#00df9a]'>law-backed </span>
                     solutions to prevent such neglect, mistreatment, and cruelty
                     before it occurs."</h3>

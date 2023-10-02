@@ -18,9 +18,9 @@ const Savelives = () => {
     <div>
     {/* Hero banner */}
     <div className='text-white bg-savelivesdog1-img bg-cover bg-center'>
-        <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end bg-white bg-opacity-10 pb-10 pl-20 pr-20'>
+        <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end bg-white bg-opacity-10 pb-10 md:pl-20 md:pr-20'>
             <p className='text-[#00df9a]  md:w-3/5 font-bold bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2'>Save Lives With Us</p>
-            <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50  md:w-3/5 pl-2'>
+            <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50  md:w-3/5 pl-2 border-l'>
                 <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4'>Give love. Get love. Save a life.</p>
             <Typed 
             className='md:text-3xl sm:text-2xl text-xl font-bold text-gray-300'
@@ -31,8 +31,8 @@ const Savelives = () => {
 
             />
             </div>
-            <p className='md:text-2xl text-xl font-bold text-gray-300 py-2 rounded bg-gray-600 bg-opacity-50  md:w-3/5 pl-2'>Adopting a rescued animal is an act of <a href='/' class="underline decoration-[#00df9a]">kindness</a>.</p>
-            <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:text-[#00df9a] hover:border-[#00df9a] hover:scale-110 duration-300' onClick={scrollToContact}>Adopt</button>
+            <p className='md:text-2xl text-xl font-bold text-gray-300 py-2 rounded-b bg-gray-600 bg-opacity-50  md:w-3/5 pl-2'>Adopting a rescued animal is an act of <a href='/' class="underline decoration-[#00df9a]">kindness</a>.</p>
+            <button className='bg-transparent text-white ml-10 text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:text-[#00df9a] hover:border-[#00df9a] hover:scale-110 duration-300' onClick={scrollToContact}>Adopt</button>
         </div>
   </div>
 
@@ -52,8 +52,8 @@ const Savelives = () => {
 {/* Link to instagram page for dogs list */}
 <div className='w-full flex justify-center pt-20 pb-20'>
     <div className='text-black bg-adoptlinkimg-img bg-cover bg-center object-bottom w-4/5 rounded-md'>
-        <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end pl-10 bg-white bg-opacity-10 pb-10'>
-            <p className='text-white w-4/5 md:w-3/5 md:text-2xl text-xl font-bold bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2'>Find your furever friend.</p>
+        <div className='max-w w-full h-screen mx-auto flex flex-col justify-end items-left md:pl-10 bg-white bg-opacity-10 pb-10'>
+            <p className='text-white md:w-3/5 md:text-2xl text-xl font-bold bg-gray-600 bg-opacity-50 rounded pl-2 pt-2'>Find your furever friend.</p>
             <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:text-[#00df9a] hover:border-[#00df9a] hover:scale-110 duration-300'><a href="https://www.instagram.com" target="_blank" rel="noreferrer">ADOPT NOW</a></button>
         </div>
     </div>

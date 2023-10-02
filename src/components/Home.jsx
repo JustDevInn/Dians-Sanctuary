@@ -19,9 +19,9 @@ const Home = () => {
     // Hero banner
     <div>
     <div className='text-white bg-dogscage-img bg-cover bg-center'>
-        <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end pl-20 bg-white bg-opacity-10'>
-            <p className='text-[#00df9a] w-3/5 font-bold bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2'>Sanctuary for animals in need</p>
-            <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50 w-3/5 pl-2'>
+        <div className='max-w w-full h-screen flex flex-col justify-end md:pl-20 bg-white bg-opacity-10'>
+            <p className='text-[#00df9a] md:w-3/5 font-bold bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2'>Sanctuary for animals in need</p>
+            <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50 md:w-3/5 pl-2 border-l'>
                 <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4'>Loving and caring for the unwanted.</p>
             <Typed 
             className='md:text-3xl sm:text-2xl text-xl font-bold text-gray-300'
@@ -32,8 +32,8 @@ const Home = () => {
 
             />
             </div>
-            <p className='md:text-2xl text-xl text-gray-300 py-2 font-bold rounded bg-gray-600 bg-opacity-50 w-3/5 pl-2'>Adopting a rescued animal is an act of <a href='/' class="underline decoration-[#00df9a]">kindness</a>.</p>
-            <button className='bg-[#00df9a] w-[150px] rounded-md font-medium my-3 py-3 hover:bg-black hover:text-[#00df9a] border hover:border-[#00df9a] hover:scale-110 duration-300'><Link to="/donate" onClick={scrollToTop}>DONATE</Link></button>
+            <p className='md:text-2xl text-xl text-gray-300 py-2 font-bold rounded bg-gray-600 bg-opacity-50 md:w-3/5 pl-2'>Adopting a rescued animal is an act of <a href='/' class="underline decoration-[#00df9a]">kindness</a>.</p>
+            <button className='bg-[#00df9a] w-[150px] ml-10 rounded-md font-medium my-3 py-3 hover:bg-black hover:text-[#00df9a] border hover:border-[#00df9a] hover:scale-110 duration-300'><Link to="/donate" onClick={scrollToTop}>DONATE</Link></button>
         </div> 
     </div>
 

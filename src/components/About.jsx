@@ -15,9 +15,9 @@ const About = () => {
     <div>
          {/* Hero banner */}
     <div className='text-white bg-aboutdog-img bg-cover bg-center'>
-        <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end bg-white bg-opacity-10 pb-10 pl-20 pr-20'>
-            <p className='text-[#00df9a] w-4/5 md:w-3/5 bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2 border-l font-bold'>About</p>
-            <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50 w-4/5 md:w-3/5 pl-2 border-l'>
+        <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end bg-white bg-opacity-10 pb-10 md:pl-20 md:pr-20'>
+            <p className='text-[#00df9a] md:w-3/5 bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2 border-l font-bold'>About</p>
+            <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50  md:w-3/5 pl-2 border-l'>
             <Typed 
             className='md:text-3xl sm:text-2xl text-xl font-bold'
             strings={['Inspiring.','Compassion.', 'Creating change.']} 
@@ -27,9 +27,9 @@ const About = () => {
 
             />
             </div>
-            <p className='md:text-2xl text-xl font-bold py-2 rounded-b bg-gray-600 bg-opacity-50 w-4/5 md:w-3/5 pl-2 border-l text-gray-300'>Inspiring compassion;
+            <p className='md:text-2xl text-xl font-bold py-2 rounded-b bg-gray-600 bg-opacity-50  md:w-3/5 pl-2 border-l text-gray-300'>Inspiring compassion;
             creating change.</p>
-            <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300 hover:text-[#00df9a] hover:border-[#00df9a]'>
+            <button className='bg-transparent text-white ml-10 text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300 hover:text-[#00df9a] hover:border-[#00df9a]'>
             <Link to="/savelives#contactSection">Adoption request</Link>
             </button>
 
@@ -65,9 +65,9 @@ Determined to make a difference, he laid the foundation for "Ibu's Sanctuary," a
 
     {/* Donation Hero */}
     <div className='text-black bg-puppycare-img bg-cover bg-right md:bg-center lg:bg-top object-top-rigth'>
-        <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end bg-white bg-opacity-10 pb-10 pl-20 pr-20'>
-            <p className='text-white w-4/5 md:w-1/2 bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2'>Save Lives With Us</p>
-            <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50 w-4/5 md:w-1/2 pl-2 border-l'>
+        <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end bg-white bg-opacity-10 pb-10 md:pl-20 md:pr-20'>
+            <p className='text-white md:w-1/2 bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2'>Save Lives With Us</p>
+            <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50 md:w-1/2 pl-2 border-l'>
                 <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4'>Their future is in </p>
             <Typed 
             className='md:text-3xl sm:text-2xl text-xl font-bold'
@@ -78,7 +78,7 @@ Determined to make a difference, he laid the foundation for "Ibu's Sanctuary," a
             />
             <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4'>hands.</p>
             </div>
-            <p className='text-white py-2 rounded bg-gray-600 bg-opacity-50 w-4/5 md:w-1/2 pl-2'>Support us to change the lives of animals, by
+            <p className='text-white py-2 rounded bg-gray-600 bg-opacity-50 md:w-1/2 pl-2'>Support us to change the lives of animals, by
                 changing the world they live in. Make a monthly
                 pledge today..</p>
             <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300 hover:text-[#00df9a] hover:border-[#00df9a]'>
