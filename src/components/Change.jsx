@@ -1,12 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Change = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // Add smooth scrolling effect
+    });
+  };
+
   return (
     <div>
     {/* top hero text */}
-  <div className='bg-gradient-to-b from-black to-gray-800 w-full py-5 text-white px-4 pl-20 pr-20 mt-20'>
+<div className='bg-gradient-to-b from-black to-gray-800 w-full py-5 text-gray-300 px-4 pl-20 pr-20'>
         <div className='max-w-[1240px] flex justify-center flex-col'>
-        <h1 className='text-xl md:text-4xl sm:text-3xl font-bold text-left pt-10'>Advocacy</h1>
+        <h1 className='text-xl md:text-4xl sm:text-3xl font-bold text-left pt-10 text-[#00df9a]'>Advocacy</h1>
             <div className='flex justify-center items-center pt-2 pb-10'>
                 <h3 className='md:text-4xl sm:text-3xl text-xl py-2 text-left'>"Rescuing animals from lives of suffering is a never-ending
                     task. Our ultimate goal is to find <span className='underline decoration-[#00df9a]'>long-term</span>, <span className='underline decoration-[#00df9a]'>law-backed </span>
@@ -14,10 +23,10 @@ const Change = () => {
                     before it occurs."</h3>
             </div>
         </div>
-    </div>
+</div>
 
 {/* Chaining & Caging */}
-  <div className='w-full  pl-10 pr-10 md:pl-20 md:pr-20 pb-10 pt-20'>
+<div className='w-full  pl-10 pr-10 md:pl-20 md:pr-20 pb-10 pt-20'>
     <div className='border-r border-2 border-black flex flex-col md:flex-row justify-center rounded'>
       
       <div className=' bg-cagingorchaining-img bg-cover bg-center md:w-1/2'>
@@ -31,10 +40,10 @@ const Change = () => {
       </div>
 
     </div>
-  </div>
+</div>
 
     {/* Backyard breeders */}
-  <div className='w-full  pl-10 pr-10 md:pl-20 md:pr-20 pb-10 pt-20'>
+<div className='w-full  pl-10 pr-10 md:pl-20 md:pr-20 pb-10 pt-20'>
     <div className='border-r border-2 border-black flex flex-col md:flex-row justify-center rounded'>
       
       <div className='flex justify-center items-center md:w-1/2 p-10'>
@@ -49,11 +58,11 @@ const Change = () => {
       </div>
 
     </div>
-  </div>
+</div>
 
 
 {/* Responsible tourism */}
-  <div className='w-full  pl-10 pr-10 md:pl-20 md:pr-20 pb-10 pt-20'>
+<div className='w-full  pl-10 pr-10 md:pl-20 md:pr-20 pb-10 pt-20'>
     <div className='border-r border-2 border-black flex flex-col md:flex-row justify-center rounded'>
       
       <div className=' bg-responsibletourism-img bg-cover bg-center md:w-1/2'>
@@ -68,10 +77,32 @@ const Change = () => {
       </div>
 
     </div>
-  </div>
+</div>
+
+{/* Donate */}
+<div className='w-full py-16 text-white px-4 pl-20 pr-20 bg-gradient-to-b from-black to-gray-800'>
+        <div className='max-w-[1240px] mx-auto flex flex-col md:flex-row'>
+          <div className='flex justify-center items-center w-1/2'>
+            <button
+              className="bg-[#00df9a] w-[150px] rounded-md font-medium  py-3 hover:scale-110 duration-300 ml-10 hover:bg-black hover:text-[#00df9a] hover:border-hover:bg-black border hover:border-[#00df9a]"
+              onClick={scrollToTop}
+            >
+              <Link to="/donate">Donate</Link>
+            </button>
+            </div>
+
+            <div className='text-3xl w-1/2'>
+                <p>It's not us saving their lives, 
+                <br></br>
+                <span className='underline decoration-[#00df9a]'>it's you.</span>
+                <br></br>
+                    <span className='text-gray-300'>Save Lives With Us</span></p>
+            </div>
+        </div>
+</div>
 
      {/* Dog meat trade */}
-    <div className='w-full  pl-10 pr-10 md:pl-20 md:pr-20 pb-10 pt-20'>
+<div className='w-full  pl-10 pr-10 md:pl-20 md:pr-20 pb-10 pt-20'>
     <div className='border-r border-2 border-black flex flex-col md:flex-row justify-center rounded'>
       
       <div className='flex justify-center items-center md:w-1/2 p-10'>
@@ -86,9 +117,37 @@ const Change = () => {
       </div>
 
     </div>
-  </div>
+</div>
+
+{/* Rabies */}
+  <div className='w-full  pl-10 pr-10 md:pl-20 md:pr-20 pb-10 pt-20'>
+    <div className='border-r border-2 border-black flex flex-col md:flex-row justify-center rounded'>
+      
+      <div className='flex justify-center items-center md:w-1/2 p-10'>
+          <div className='flex flex-col justify-center'>
+            <h1 className='font-bold text-xl mb-5'>Bali's rabies crisis</h1>
+            <p>In 2008, fishermen coming from the island of Flores arrived on the Bukit peninsula in south Bali with a dog unknowingly carrying the rabies virus. The dog soon turned rabid and began infecting other animals and humans.
+
+              <br></br><br></br>
+              Without a single rabies vaccine available island-wide, the outbreak quickly engulfed Bali and ended tragically in over 100 human deaths.
+
+              <br></br><br></br>
+              Panic ensued and people began to fear dogs, resulting in indiscriminate, painful, and wide-scale culling of dogs including numerous indigenous Bali Heritage Dogs.
+              </p>
+              <br></br><br></br>
+              <span className='text-xs'>* An estimated 150,000 dogs were killed in a frantic, misguided attempt to stop the spread of rabies.</span>
+          </div>
+      </div>
+      
+      <div className=' bg-rabies-img bg-cover bg-center md:w-1/2'> 
+        <div className='max-w w-full h-screen bg-white bg-opacity-10 pb-10 pl-20 pr-20'></div>
+      </div>
 
     </div>
+  </div>
+
+
+</div>
   )
 }
 

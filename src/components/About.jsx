@@ -14,21 +14,25 @@ const About = () => {
   return (
     <div>
          {/* Hero banner */}
-    <div className='text-black bg-aboutdog-img bg-cover bg-center'>
+    <div className='text-white bg-aboutdog-img bg-cover bg-center'>
         <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end bg-white bg-opacity-10 pb-10 pl-20 pr-20'>
-            <p className='text-white w-4/5 md:w-3/5 bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2 border-l'>About</p>
+            <p className='text-[#00df9a] w-4/5 md:w-3/5 bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2 border-l font-bold'>About</p>
             <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50 w-4/5 md:w-3/5 pl-2 border-l'>
             <Typed 
             className='md:text-3xl sm:text-2xl text-xl font-bold'
             strings={['Inspiring.','Compassion.', 'Creating change.']} 
             typeSpeed={100} 
             backSpeed={50} 
-            // loop
+            loop
 
             />
             </div>
-            <p className='md:text-2xl text-xl font-bold text-gray-300 py-2 rounded-b bg-gray-600 bg-opacity-50 w-4/5 md:w-3/5 pl-2 border-l'>Inspiring compassion;
+            <p className='md:text-2xl text-xl font-bold py-2 rounded-b bg-gray-600 bg-opacity-50 w-4/5 md:w-3/5 pl-2 border-l text-gray-300'>Inspiring compassion;
             creating change.</p>
+            <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300 hover:text-[#00df9a] hover:border-[#00df9a]'>
+            <Link to="/savelives#contactSection">Adoption request</Link>
+            </button>
+
         </div>
     </div>
 {/* Creating change */}
@@ -77,7 +81,7 @@ Determined to make a difference, he laid the foundation for "Ibu's Sanctuary," a
             <p className='text-white py-2 rounded bg-gray-600 bg-opacity-50 w-4/5 md:w-1/2 pl-2'>Support us to change the lives of animals, by
                 changing the world they live in. Make a monthly
                 pledge today..</p>
-            <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300'>
+            <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300 hover:text-[#00df9a] hover:border-[#00df9a]'>
                 <Link to="/donate" onClick={scrollToTop}>DONATE</Link>
             </button>
         </div>

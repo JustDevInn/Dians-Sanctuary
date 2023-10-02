@@ -19,37 +19,37 @@ const Navbar = () => {
 
   return (
     <div className="bg-white flex justify-between items-center h-24  mx-auto px-4 text-black sticky top-0 pl-20 pr-20">
-      <h1 className="w-full text-2xl font-bold text-[#00df9a]">
+      <h1 className="w-full text-2xl font-bold text-[#00df9a] hover:text-black">
         <Link to="/" onClick={scrollToTop}>
           Ibu's Sanctuary.
         </Link>
       </h1>
-      <ul className="hidden md:flex">
-        <li className="p-4">
+      <ul className="hidden md:flex ">
+        <li className="p-4 hover:text-[#00df9a]">
           <Link to="/compassion" onClick={scrollToTop}>
-            Compassion
+            COMPASSION
           </Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:text-[#00df9a]">
           <Link to="/change" onClick={scrollToTop}>
-            Change
+            CHANGE
           </Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:text-[#00df9a]">
           <Link to="/savelives" onClick={scrollToTop}>
-            Save lives
+            SAVE
           </Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:text-[#00df9a]">
           <Link to="/about" onClick={scrollToTop}>
-            About
+            ABOUT
           </Link>
         </li>
         <button
-          className="bg-[#00df9a] w-[150px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300 ml-10"
+          className="bg-[#00df9a] w-[150px] rounded-md font-medium  py-3  hover:bg-black hover:text-[#00df9a] border hover:border-[#00df9a] hover:scale-110 duration-300 "
           onClick={scrollToTop}
         >
-          <Link to="/donate">Donate</Link>
+          <Link to="/donate">DONATE</Link>
         </button>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
@@ -63,22 +63,22 @@ const Navbar = () => {
           </Link>
         </h1>
         <ul className="uppercase p-4">
-          <li className="p-4 border-b border-gray-600">
+          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]">
             <Link to="/compassion" onClick={scrollToTop}>
               Compassion
             </Link>
           </li>
-          <li className="p-4 border-b border-gray-600">
+          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]">
             <Link to="/change" onClick={scrollToTop}>
               Change
             </Link>
           </li>
-          <li className="p-4 border-b border-gray-600">
+          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]">
             <Link to="/savelives" onClick={scrollToTop}>
               Save lives
             </Link>
           </li>
-          <li className="p-4 border-b border-gray-600">
+          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]">
             <Link to="/about" onClick={scrollToTop}>
               About
             </Link>

@@ -18,23 +18,23 @@ const Home = () => {
   return (
     // Hero banner
     <div>
-    <div className='text-black bg-dogscage-img bg-cover bg-center'>
+    <div className='text-white bg-dogscage-img bg-cover bg-center'>
         <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end pl-20 bg-white bg-opacity-10'>
             <p className='text-[#00df9a] w-3/5 font-bold bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2'>Sanctuary for animals in need</p>
             <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50 w-3/5 pl-2'>
                 <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4'>Loving and caring for the unwanted.</p>
             <Typed 
-            className='md:text-3xl sm:text-2xl text-xl font-bold'
+            className='md:text-3xl sm:text-2xl text-xl font-bold text-gray-300'
             strings={['Rescues.','Adoptions.', 'Fostering.']} 
             typeSpeed={100} 
             backSpeed={50} 
-            // loop
+            loop
 
             />
             </div>
-            <p className='md:text-2xl text-xl font-bold text-gray-300 py-2 rounded bg-gray-600 bg-opacity-50 w-3/5 pl-2'>Adopting a rescued animal is an act of <a href='/' class="underline decoration-[#00df9a]">kindness</a>.</p>
-            <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-3 py-3'><Link to="/donate" onClick={scrollToTop}>DONATE</Link></button>
-        </div>
+            <p className='md:text-2xl text-xl text-gray-300 py-2 font-bold rounded bg-gray-600 bg-opacity-50 w-3/5 pl-2'>Adopting a rescued animal is an act of <a href='/' class="underline decoration-[#00df9a]">kindness</a>.</p>
+            <button className='bg-[#00df9a] w-[150px] rounded-md font-medium my-3 py-3 hover:bg-black hover:text-[#00df9a] border hover:border-[#00df9a] hover:scale-110 duration-300'><Link to="/donate" onClick={scrollToTop}>DONATE</Link></button>
+        </div> 
     </div>
 
     {/* HeroAbout */}
@@ -70,7 +70,8 @@ const Home = () => {
     </div>
 
       {/* Rescues */}
-      <div className='w-full py-[10rem] px-4 bg-white pl-20 pr-20'>
+      <div className='w-full py-[10rem] px-4 bg-white pl-20 pr-20 flex flex-col items-center'>
+      <h1 className='text-3xl font-bold mb-20'>Our rescues</h1>
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
             
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'> 
