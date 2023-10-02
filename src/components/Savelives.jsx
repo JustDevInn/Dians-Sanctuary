@@ -54,7 +54,7 @@ const Savelives = () => {
     <div className='text-black bg-adoptlinkimg-img bg-cover bg-center object-bottom w-4/5 rounded-md'>
         <div className='max-w w-full h-screen mx-auto flex flex-col justify-end items-left md:pl-10 bg-white bg-opacity-10 pb-10'>
             <p className='text-white md:w-3/5 md:text-2xl text-xl font-bold bg-gray-600 bg-opacity-50 rounded pl-2 pt-2'>Find your furever friend.</p>
-            <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:text-[#00df9a] hover:border-[#00df9a] hover:scale-110 duration-300'><a href="https://www.instagram.com" target="_blank" rel="noreferrer">ADOPT NOW</a></button>
+            <button className='bg-transparent text-white ml-10 text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:text-[#00df9a] hover:border-[#00df9a] hover:scale-110 duration-300'><a href="https://www.instagram.com" target="_blank" rel="noreferrer">ADOPT NOW</a></button>
         </div>
     </div>
 </div>
@@ -82,7 +82,7 @@ change the course of theirs. */}
                 change the course of theirs.</p>
             </div>
             <p className=' text-white py-2 rounded bg-gray-600 bg-opacity-50  md:w-3/5 pl-2'>Fostering gives you the chance to make a difference in the life of a rescued animal, without any of the long-term commitments.</p>
-            <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:text-[#00df9a] hover:border-[#00df9a] hover:scale-110 duration-300' onClick={scrollToContact} >Apply to foster</button>
+            <button className='bg-transparent text-white ml-10 text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:text-[#00df9a] hover:border-[#00df9a] hover:scale-110 duration-300' onClick={scrollToContact} >Apply to foster</button>
         </div>
     </div>
 </div>

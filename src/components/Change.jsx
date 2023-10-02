@@ -80,18 +80,18 @@ const Change = () => {
 </div>
 
 {/* Donate */}
-<div className='w-full py-16 text-white px-4 pl-20 pr-20 bg-gradient-to-b from-black to-gray-800'>
-        <div className='max-w-[1240px] mx-auto flex flex-col md:flex-row'>
-          <div className='flex justify-center items-center w-1/2'>
+<div className='w-full py-16 text-white md:pl-20 md:pr-20 bg-gradient-to-b from-black to-gray-800'>
+        <div className='max-w-[1240px] flex flex-col md:flex-row'>
+          <div className='flex justify-center items-center md:w-1/2'>
             <button
-              className="bg-[#00df9a] w-[150px] rounded-md font-medium  py-3 hover:scale-110 duration-300 ml-10 hover:bg-black hover:text-[#00df9a] hover:border-hover:bg-black border hover:border-[#00df9a]"
+              className="bg-[#00df9a] w-[150px] rounded-md font-medium  py-3 hover:scale-110 duration-300 md:ml-10 mb-10 md:mb-0 hover:bg-black hover:text-[#00df9a] hover:border-hover:bg-black border hover:border-[#00df9a]"
               onClick={scrollToTop}
             >
               <Link to="/donate">Donate</Link>
             </button>
             </div>
 
-            <div className='text-3xl w-1/2'>
+            <div className='text-3xl md:w-1/2 pl-20 md:pl-0'>
                 <p>It's not us saving their lives, 
                 <br></br>
                 <span className='underline decoration-[#00df9a]'>it's you.</span>
