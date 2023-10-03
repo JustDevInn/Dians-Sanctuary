@@ -45,7 +45,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <h6 className="font-medium text-gray-400 pl-1">Save lives with us</h6>
+                <h6 className="font-medium text-gray-400">Save lives with us</h6>
                 <ul>
                     <li className='p-2 hover:text-[#00df9a]' text-sm>
                         <Link to="/donate" onClick={scrollToTop}>
@@ -66,14 +66,14 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <h6 className="font-medium text-gray-400 pl-1">Contact</h6>
+                <h6 className="font-medium text-gray-400">Contact</h6>
                 <ul>
-                    <li className='p-1 pt-2' text-sm>Ibu Sri</li>
-                    <li className='p-1 pb-2' text-sm>+20388010293</li>
-                    <h6 className="font-medium text-gray-400 pl-1">Address</h6>
-                    <li className='p-1' text-sm>Bali 82121</li>
-                    <li className='p-1' text-sm>Tabanan, Kabupaten <br></br>Tabanan</li>
-                    <li className='p-1' text-sm>Jl. Darmawangsa No.7, <br></br>Delod Peken, Kec.</li>
+                    <li className='pl-2' text-sm>Ibu Sri</li>
+                    <li className='pl-2' text-sm>+20388010293</li>
+                    <h6 className="font-medium text-gray-400">Address</h6>
+                    <li className='pl-2' text-sm>Bali 82121</li>
+                    <li className='pl-2' text-sm>Tabanan, Kabupaten <br></br>Tabanan</li>
+                    <li className='pl-2' text-sm>Jl. Darmawangsa No.7, <br></br>Delod Peken, Kec.</li>
                 </ul>
             </div>
         </div>
