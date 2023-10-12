@@ -14,7 +14,7 @@ const Footer = () => {
 
   return (
     <div className='bg-gradient-to-t from-black to-gray-800 max-w[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
-        <div className='text-center px-10'>
+        <div className='w-full text-center lg:px-10'>
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Ibu's Sanctuary.</h1>
         <p className='md:text-2xl text-xl font-bold text-gray-300 py-2'>Adopting a rescued animal is an act of <a href='/' class="underline decoration-[#00df9a]">kindness</a>.</p>
         <div className='flex justify-around my-6'>
@@ -23,9 +23,9 @@ const Footer = () => {
         <a href="mailto:peeters.justin@yahoo.com" className='hover:text-[#00df9a]'><MdOutlineMail size={30} /></a>
         </div>
         </div>
-        <div className="lg:col-span-2 flex justify-between mt-6 px-10">
+        <div className="lg:col-span-2 flex justify-between mt-6 lg:px-10">
             <div>
-                <h6 className="font-medium text-gray-400">Change</h6>
+                <h6 className="font-medium h-[20px] mb-6 text-gray-400">Change</h6>
                 <ul>
                     <li className='p-2 hover:text-[#00df9a]' text-sm>
                         <Link to="/change" onClick={scrollToTop}>
@@ -45,7 +45,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <h6 className="font-medium text-gray-400">Save lives with us</h6>
+                <h6 className="font-medium h-[20px] mb-6 text-gray-400">Save lives with us</h6>
                 <ul>
                     <li className='p-2 hover:text-[#00df9a]' text-sm>
                         <Link to="/donate" onClick={scrollToTop}>
@@ -66,7 +66,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <h6 className="font-medium text-gray-400">Contact</h6>
+                <h6 className="font-medium h-[20px] mb-6 text-gray-400">Contact</h6>
                 <ul>
                     <li className='pl-2' text-sm>Ibu Sri</li>
                     <li className='pl-2' text-sm>+20388010293</li>

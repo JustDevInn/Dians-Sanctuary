@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     // Hero banner
-    <div>
+    <div className='w-full'>
     <div className='text-white bg-dogscage-img bg-cover bg-center'>
         <div className='max-w w-full h-screen flex flex-col justify-end md:pl-20 bg-white bg-opacity-10'>
             <p className='text-[#00df9a] md:w-3/5 font-bold bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2'>Sanctuary for animals in need</p>
@@ -53,7 +53,7 @@ const Home = () => {
     </div>
 
     {/* Information */}
-    <div className='bg-gradient-to-b from-black to-gray-800 w-full py-16 text-white px-4 pl-20 pr-20'>
+    <div className='w-full bg-gradient-to-b from-black to-gray-800  py-16 text-white px-4 pl-20 pr-20'>
         <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
             <div className='lg:col-span-2 my-4'>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Tips & trick to take care of rescues?</h1>

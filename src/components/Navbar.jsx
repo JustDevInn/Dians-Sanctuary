@@ -19,9 +19,9 @@ const Navbar = () => {
 
   return (
     <div className="bg-white flex justify-between items-center h-24  mx-auto px-4 text-black sticky top-0 pl-20 pr-20">
-      <h1 className="w-full text-2xl font-bold text-[#00df9a] hover:text-black">
+      <h1 className="w-full text-2xl font-bold mr-4 text-[#00df9a] hover:text-black">
         <Link to="/" onClick={scrollToTop}>
-          Ibu's Sanctuary.
+        Dharmawangsa
         </Link>
       </h1>
       <ul className="hidden md:flex ">
@@ -57,9 +57,9 @@ const Navbar = () => {
       </div>
 
       <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 ease-in-out duration-500 bg-white' : 'fixed left-[-100%]'}>
-        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">
+        <h1 className="w-full text-xl font-bold text-[#00df9a] m-4 mt-6">
           <Link to="/" onClick={() => { scrollToTop(); handleNav(); }}>
-            Dian's Sanctuary.
+          Dharmawangsa
           </Link>
         </h1>
         <ul className="uppercase p-4">
