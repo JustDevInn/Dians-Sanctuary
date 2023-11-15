@@ -16,7 +16,7 @@ const Donate = () => {
             strings={['Save.','Lives.', 'With', 'us.']} 
             typeSpeed={100} 
             backSpeed={50} 
-            loop
+            // loop
 
             />
             </div>

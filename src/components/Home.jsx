@@ -28,12 +28,12 @@ const Home = () => {
             strings={['Rescues.','Adoptions.', 'Fostering.']} 
             typeSpeed={100} 
             backSpeed={50} 
-            loop
+            // loop
 
             />
             </div>
             <p className='md:text-2xl text-xl text-gray-300 py-2 font-bold rounded bg-gray-600 bg-opacity-50 md:w-3/5 pl-2'>Adopting a rescued animal is an act of <a href='/' class="underline decoration-[#00df9a]">kindness</a>.</p>
-            <button className='bg-[#00df9a] w-[150px] ml-10 rounded-md font-medium my-3 py-3 hover:bg-black hover:text-[#00df9a] border hover:border-[#00df9a] hover:scale-110 duration-300'><Link to="/donate" onClick={scrollToTop}>DONATE</Link></button>
+            <button className=' w-[150px] ml-10 my-3 py-3 bg-transparent text-[#E9F1F7] tracking-widest p-3 font-bold px-6 border-2 border-[#E9F1F7] hover:bg-[#54426B] hover:text-[#E7DFC6] hover:border-[#54426B]  '><Link to="/donate" onClick={scrollToTop}>DONATE</Link></button>
         </div> 
     </div>
 

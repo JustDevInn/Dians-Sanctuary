@@ -16,8 +16,8 @@ const About = () => {
          {/* Hero banner */}
     <div className='text-white bg-aboutdog-img bg-cover bg-center'>
         <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end bg-white bg-opacity-10 pb-10 md:pl-20 md:pr-20'>
-            <p className='text-[#00df9a] md:w-3/5 bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2 border-l font-bold'>About</p>
-            <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50  md:w-3/5 pl-2 border-l'>
+            <p className='text-[#54426B] md:w-3/5 bg-[#E7DFC6] bg-opacity-50 rounded-t pl-2 pt-2 font-bold uppercase text-4xl tracking-wider'>About</p>
+            <div className='flex flex-col justify-center bg-[#E7DFC6] bg-opacity-50  md:w-3/5 pl-2'>
             <Typed 
             className='md:text-3xl sm:text-2xl text-xl font-bold'
             strings={['Inspiring.','Compassion.', 'Creating change.']} 
@@ -27,36 +27,36 @@ const About = () => {
 
             />
             </div>
-            <p className='md:text-2xl text-xl font-bold py-2 rounded-b bg-gray-600 bg-opacity-50  md:w-3/5 pl-2 border-l text-gray-300'>Inspiring compassion;
+            <p className='md:text-2xl text-xl font-thin py-2 rounded-b bg-[#E7DFC6] bg-opacity-50  md:w-3/5 pl-2 text-[#54426B] '>Inspiring compassion;
             creating change.</p>
-            <button className='bg-transparent text-white ml-10 text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300 hover:text-[#00df9a] hover:border-[#00df9a]'>
+            <button className='ml-10 w-[200px] my-3 py-3 bg-[#54426B] text-[#E7DFC6] tracking-widest  font-bold hover:bg-[#E7DFC6] hover:text-[#54426B] border-2 border-[#54426B] uppercase'>
             <Link to="/savelives#contactSection">Adoption request</Link>
             </button>
 
         </div>
     </div>
 {/* Creating change */}
-    <div className='bg-gradient-to-b from-black to-gray-800 w-full py-16 text-white px-4 pl-20 pr-20'>
+    <div className='bg-[#E7DFC6]  w-full py-16 text-[#54426B] px-4 pl-20 pr-20'>
         <div className='max-w-[1240px] mx-auto grid lg:grid-cols-2'>
-            <div className='my-4 border-l pl-10'>
-                <h1 className='font-bold text-2xl'>Our mission</h1>
-                <p className='py-2'>To put compassion into action and create <span className='underline decoration-[#00df9a]'>sustainable change for Bali’s animals.</span></p>
+            <div className='my-4 border-l border-[#623CEA] pl-10'>
+                <h1 className='font-normal text-2xl uppercase tracking-wider'>Our mission</h1>
+                <p className='py-2 font-thin tracking-wider'>To put compassion into action and create <span className='underline decoration-[#623CEA]'>sustainable change for Bali’s animals.</span></p>
             </div>
-            <div className='my-4 border-l pl-10'>
-                <h1 className='font-bold text-2xl'>Our Vision</h1>
-                <p className='py-2'>We envision a Bali in which each village is its own natural sanctuary for animals; where all animals are routinely vaccinated, healthy, cared for, and treated with <span className='underline decoration-[#00df9a]'>compassion and respect</span>, and the population is controlled at a manageable and sustainable level.</p>
+            <div className='my-4 border-l border-[#623CEA] pl-10'>
+                <h1 className='font-normal text-2xl uppercase tracking-wider'>Our Vision</h1>
+                <p className='py-2 font-thin tracking-wider'>We envision a Bali in which each village is its own natural sanctuary for animals; where all animals are routinely vaccinated, healthy, cared for, and treated with <span className='underline decoration-[#623CEA]'>compassion and respect</span>, and the population is controlled at a manageable and sustainable level.</p>
             </div>
         </div>
     </div>
 
     {/* who is dian? */}
-    <div className='bg-gradient-to-t from-black to-gray-800 w-full py-16 text-white px-4 pl-20 pr-20'>
+    <div className='bg-gradient-to-b from-[#E7DFC6] to-[#E9F1F7] w-full py-16 text-[#54426B] px-4 pl-20 pr-20'>
         <div className='max-w-[1240px] mx-auto grid lg:grid-cols-2'>
             <div className='my-4 pl-10'>
-                <h1 className='font-bold text-2xl'>Who is Ibu Sanctuary?</h1>
+                <h1 className='font-normal text-2xl uppercase tracking-wider'>Who is Ibu Sanctuary?</h1>
             </div>
             <div className='my-4 pl-10'>
-                <p className='py-2'>"Ibu's Sanctuary" emerges as a beacon of hope amidst the lush landscapes of Bali, a sanctuary born from the boundless dedication of its founder, Alejandro Martinez. In 2010, Alejandro, a passionate wildlife advocate from Mexico, embarked on a transformative journey to Bali, captivated by its enchanting beauty and diverse fauna.
+                <p className='py-2 font-thin tracking-wider'>"Ibu's Sanctuary" emerges as a beacon of hope amidst the lush landscapes of Bali, a sanctuary born from the boundless dedication of its founder, Alejandro Martinez. In 2010, Alejandro, a passionate wildlife advocate from Mexico, embarked on a transformative journey to Bali, captivated by its enchanting beauty and diverse fauna.
 <br></br><br></br>
 Determined to make a difference, he laid the foundation for "Ibu's Sanctuary," a non-profit organization rooted in the spirit of compassion and driven by the desire to protect Bali's precious creatures. In the local language, "Ibu" signifies both "mother" and "nurturer," embodying the organization's nurturing approach towards safeguarding the island's ecological wonders.</p>
             </div>
@@ -66,22 +66,22 @@ Determined to make a difference, he laid the foundation for "Ibu's Sanctuary," a
     {/* Donation Hero */}
     <div className='text-black bg-puppycare-img bg-cover bg-right md:bg-center lg:bg-top object-top-rigth'>
         <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end bg-white bg-opacity-10 pb-10 md:pl-20 md:pr-20'>
-            <p className='text-white md:w-1/2 bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2'>Save Lives With Us</p>
-            <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50 md:w-1/2 pl-2 border-l'>
-                <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4'>Their future is in </p>
+            <p className='text-[#54426B] md:w-1/2 bg-[#E7DFC6] bg-opacity-50 rounded-t pl-2 pt-2 uppercase tracking-wider text-xl'>Save Lives With Us</p>
+            <div className='flex flex-col justify-center bg-[#E7DFC6] bg-opacity-50 md:w-1/2 pl-2 '>
+                <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4 text-[#E9F1F7] tracking-wider'>Their future is in </p>
             <Typed 
-            className='md:text-3xl sm:text-2xl text-xl font-bold'
-            strings={['Our.','Your.']} 
+            className='md:text-3xl sm:text-2xl text-xl font-bold text-[#54426B] uppercase tracking-wider'
+            strings={['Our','Your']} 
             typeSpeed={100} 
             backSpeed={50} 
             loop
             />
-            <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4'>hands.</p>
+            <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4 text-[#E9F1F7] tracking-wider'>hands.</p>
             </div>
-            <p className='text-white py-2 rounded bg-gray-600 bg-opacity-50 md:w-1/2 pl-2'>Support us to change the lives of animals, by
+            <p className='text-[#E9F1F7] py-2 rounded-b bg-[#E7DFC6] bg-opacity-50 md:w-1/2 pl-2 font-thin tracking-wider text-xl'>Support us to change the lives of animals, by
                 changing the world they live in. Make a monthly
                 pledge today..</p>
-            <button className='bg-transparent text-white text-bold  ml-10 border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300 hover:text-[#00df9a] hover:border-[#00df9a]'>
+            <button className='ml-10 w-[200px] my-3 py-3 bg-[#54426B] text-[#E7DFC6] tracking-widest  font-bold hover:bg-[#E7DFC6] hover:text-[#54426B] border-2 border-[#54426B] uppercase'>
                 <Link to="/donate" onClick={scrollToTop}>DONATE</Link>
             </button>
         </div>

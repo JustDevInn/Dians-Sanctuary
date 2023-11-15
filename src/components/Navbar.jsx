@@ -18,35 +18,35 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-white flex justify-between items-center h-24  mx-auto px-4 text-black sticky top-0 pl-20 pr-20">
-      <h1 className="w-full text-2xl font-bold mr-4 text-[#00df9a] hover:text-black">
+    <div className="bg-[#E7DFC6] flex justify-between items-center h-24  mx-auto px-4 text-[#54426B] top-0 pl-20 pr-20">
+      <h1 className="w-full text-xl lg:text-4xl md:text-2xl font-thin tracking-widest uppercase mr-4">
         <Link to="/" onClick={scrollToTop}>
         Dharmawangsa
         </Link>
       </h1>
-      <ul className="hidden md:flex ">
-        <li className="p-4 hover:text-[#00df9a]">
+      <ul className="hidden md:flex font-normal tracking-widest uppercase">
+        <li className="p-4 hover:text-[#623CEA]">
           <Link to="/compassion" onClick={scrollToTop}>
             COMPASSION
           </Link>
         </li>
-        <li className="p-4 hover:text-[#00df9a]">
+        <li className="p-4 hover:text-[#623CEA]">
           <Link to="/change" onClick={scrollToTop}>
             CHANGE
           </Link>
         </li>
-        <li className="p-4 hover:text-[#00df9a]">
+        <li className="p-4 hover:text-[#623CEA]">
           <Link to="/savelives" onClick={scrollToTop}>
             SAVE
           </Link>
         </li>
-        <li className="p-4 hover:text-[#00df9a]">
+        <li className="p-4 hover:text-[#623CEA]">
           <Link to="/about" onClick={scrollToTop}>
             ABOUT
           </Link>
         </li>
         <button
-          className="bg-[#00df9a] w-[150px] rounded-md font-medium  py-3  hover:bg-black hover:text-[#00df9a] border hover:border-[#00df9a] hover:scale-110 duration-300 "
+          className="p-3 px-6 py-3 ml-5 bg-[#54426B] text-[#E7DFC6] tracking-widest  font-bold hover:bg-[#E7DFC6] hover:text-[#54426B] border-2 border-[#54426B] uppercase"
           onClick={scrollToTop}
         >
           <Link to="/donate">DONATE</Link>
@@ -56,35 +56,35 @@ const Navbar = () => {
         {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
-      <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 ease-in-out duration-500 bg-white' : 'fixed left-[-100%]'}>
-        <h1 className="w-full text-xl font-bold text-[#00df9a] m-4 mt-6">
+      <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 ease-in-out duration-500 bg-[#E7DFC6]' : 'fixed left-[-100%]'}>
+        <h1 className="w-full text-xl font-thin tracking-widest uppercase m-4 py-10">
           <Link to="/" onClick={() => { scrollToTop(); handleNav(); }}>
           Dharmawangsa
           </Link>
         </h1>
-        <ul className="uppercase p-4">
-          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]">
+        <ul className="uppercase p-4 font-normal tracking-widest pt-5">
+          <li className="p-5 border-b border-gray-100 w-1/2 hover:font-normal">
             <Link to="/compassion" onClick={() => { scrollToTop(); handleNav(); }}>
               Compassion
             </Link>
           </li>
-          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]">
+          <li className="p-5 border-b border-gray-100 w-1/2 hover:font-normal">
             <Link to="/change" onClick={() => { scrollToTop(); handleNav(); }}>
               Change
             </Link>
           </li>
-          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]">
+          <li className="p-5 border-b border-gray-100 w-1/2 hover:font-normal">
             <Link to="/savelives" onClick={() => { scrollToTop(); handleNav(); }}>
               Save lives
             </Link>
           </li>
-          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]">
+          <li className="p-5 border-b border-gray-100 w-1/2 hover:font-normal">
             <Link to="/about" onClick={() => { scrollToTop(); handleNav(); }}>
               About
             </Link>
           </li>
           <button
-            className="bg-[#00df9a] w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300"
+            className="mt-10 px-6 py-3 bg-[#54426B] text-[#E7DFC6] tracking-widest  font-bold hover:bg-[#E7DFC6] hover:text-[#54426B] border-2 border-[#54426B] uppercase"
             onClick={() => { scrollToTop(); handleNav(); }}
           >
             <Link to="/donate">Donate</Link>

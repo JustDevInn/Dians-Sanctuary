@@ -7,19 +7,19 @@ const Compassion = () => {
 
 <div className='text-white bg-compassiondog1-img bg-cover bg-center'>
         <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end bg-white bg-opacity-10 pb-10 md:pl-20 md:pr-20'>
-            <p className='text-[#00df9a] md:w-3/5 font-bold bg-gray-600 bg-opacity-50 rounded-t pl-2 pt-2'>We have so much to tell you</p>
-            <div className='flex flex-col justify-center bg-gray-600 bg-opacity-50 md:w-3/5 pl-2 border-l'>
-                <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4'>Please visit our instagram for up to date stories.</p>
+            <p className='text-[#54426B] uppercase md:w-3/5 text-xl font-normal tracking-wider bg-[#E7DFC6] bg-opacity-50 rounded-t pl-2 pt-2'>We have so much to tell you</p>
+            <div className='flex flex-col justify-center bg-[#E7DFC6] bg-opacity-50 md:w-3/5 pl-2 '>
+                <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4 text-[#E9F1F7] tracking-wider'>Please visit our instagram for up to date stories.</p>
             <Typed 
-            className='md:text-3xl sm:text-2xl text-xl font-bold text-gray-300'
+            className='md:text-3xl sm:text-2xl text-xl font-bold text-[#54426B] tracking-wider uppercase'
             strings={['Rescues.','Adoptions.', 'Fostering.']} 
             typeSpeed={100} 
             backSpeed={50} 
-            loop
+            // loop
 
             />
             </div>
-            <button className='bg-transparent text-white text-bold border-2 w-[200px] rounded-md font-medium my-3 py-3 hover:scale-110 duration-300 hover:text-[#00df9a] hover:border-[#00df9a] ml-10'><a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a></button>
+            <button className='w-[200px] my-3 py-3 ml-10 bg-[#54426B] text-[#E7DFC6] tracking-widest  font-bold hover:bg-[#E7DFC6] hover:text-[#54426B] border-2 border-[#54426B] uppercase'><a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a></button>
         </div>
     </div>
 
