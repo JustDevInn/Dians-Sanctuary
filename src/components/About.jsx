@@ -1,5 +1,4 @@
 import React from 'react'
-import Typed from 'react-typed';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -16,16 +15,10 @@ const About = () => {
          {/* Hero banner */}
     <div className='text-white bg-aboutdog-img bg-cover bg-center'>
         <div className='max-w w-full h-screen mx-auto text-start flex flex-col justify-end bg-white bg-opacity-10 pb-10 md:pl-20 md:pr-20'>
-            <p className='text-[#54426B] md:w-3/5 bg-[#E7DFC6] bg-opacity-50 rounded-t pl-2 pt-2 font-bold uppercase text-4xl tracking-wider'>About</p>
+            <p className='text-[#54426B] md:w-3/5 bg-[#E7DFC6] bg-opacity-50 rounded-t pl-2 pt-2 font-normal uppercase text-2xl tracking-wider'>About</p>
             <div className='flex flex-col justify-center bg-[#E7DFC6] bg-opacity-50  md:w-3/5 pl-2'>
-            <Typed 
-            className='md:text-3xl sm:text-2xl text-xl font-bold'
-            strings={['Inspiring.','Compassion.', 'Creating change.']} 
-            typeSpeed={100} 
-            backSpeed={50} 
-            loop
-
-            />
+            <p className='md:text-3xl sm:text-2xl text-xl font-bold'>'Inspiring.','Compassion.', 'Creating change.'</p> 
+            
             </div>
             <p className='md:text-2xl text-xl font-thin py-2 rounded-b bg-[#E7DFC6] bg-opacity-50  md:w-3/5 pl-2 text-[#54426B] '>Inspiring compassion;
             creating change.</p>
@@ -69,13 +62,8 @@ Determined to make a difference, he laid the foundation for "Ibu's Sanctuary," a
             <p className='text-[#54426B] md:w-1/2 bg-[#E7DFC6] bg-opacity-50 rounded-t pl-2 pt-2 uppercase tracking-wider text-xl'>Save Lives With Us</p>
             <div className='flex flex-col justify-center bg-[#E7DFC6] bg-opacity-50 md:w-1/2 pl-2 '>
                 <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4 text-[#E9F1F7] tracking-wider'>Their future is in </p>
-            <Typed 
-            className='md:text-3xl sm:text-2xl text-xl font-bold text-[#54426B] uppercase tracking-wider'
-            strings={['Our','Your']} 
-            typeSpeed={100} 
-            backSpeed={50} 
-            loop
-            />
+            <p className='md:text-3xl sm:text-2xl text-xl font-bold text-[#54426B] uppercase tracking-wider'>'Our','Your'</p>
+      
             <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4 text-[#E9F1F7] tracking-wider'>hands.</p>
             </div>
             <p className='text-[#E9F1F7] py-2 rounded-b bg-[#E7DFC6] bg-opacity-50 md:w-1/2 pl-2 font-thin tracking-wider text-xl'>Support us to change the lives of animals, by

@@ -1,5 +1,4 @@
 import React from 'react'
-import Typed from 'react-typed';
 import {FaShieldDog} from 'react-icons/fa6';
 
 const Savelives = () => {
@@ -22,14 +21,8 @@ const Savelives = () => {
             <p className='text-[#54426B]  md:w-3/5 text-xl font-normal bg-[#E7DFC6] bg-opacity-50 rounded-t pl-2 pt-2 tracking-wider uppercase'>Save Lives With Us</p>
             <div className='flex flex-col justify-center bg-[#E7DFC6] bg-opacity-50  md:w-3/5 pl-2 '>
                 <p className='md:text-3xl sm:text-2xl text-xl font-bold py-4 tracking-wider'>Give love. Get love. Save a life.</p>
-            <Typed 
-            className='md:text-3xl sm:text-2xl text-xl uppercase font-bold text-[#54426B] tracking-wider'
-            strings={['Rescues.','Adoptions.', 'Fostering.']} 
-            typeSpeed={100} 
-            backSpeed={50} 
-            // loop
-
-            />
+            <p className='md:text-3xl sm:text-2xl text-xl uppercase font-bold text-[#54426B] tracking-wider'> 'Rescues.','Adoptions.', 'Fostering.'</p> 
+            
             </div>
             <p className='md:text-2xl text-xl font-thin tracking-wider text-[#54426B] py-2 rounded-b bg-[#E7DFC6] bg-opacity-50  md:w-3/5 pl-2 '>Adopting a rescued animal is an act of <a href='/' class="underline decoration-[#623CEA]">kindness</a>.</p>
             <button className='w-[150px] my-3 py-3 p-3 px-6 bg-[#54426B] text-[#E7DFC6] tracking-widest  font-bold hover:bg-[#E7DFC6] hover:text-[#54426B] border-2 border-[#54426B] uppercase' onClick={scrollToContact}>Adopt</button>

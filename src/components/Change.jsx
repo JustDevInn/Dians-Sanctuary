@@ -13,7 +13,7 @@ const Change = () => {
   return (
     <div>
     {/* top hero text */}
-  <div className='bg-gradient-to-b from-[#E7DFC6] to-[#E9F1F7] w-full py-5 text-gray-300 px-4 pl-20 pr-20'>
+  <div className='bg-gradient-to-b from-[#E7DFC6] to-[#E9F1F7] w-full py-5 text-gray-300 px-4 pl-20 pr-20 md:pt-40'>
         <div className='max-w-[1240px] flex justify-center flex-col'>
         <h1 className='text-xl md:text-4xl sm:text-3xl font-bold text-left pt-10 text-[#54426B] uppercase tracking-widest'>Advocacy</h1>
             <div className='flex justify-center items-center pt-2 pb-10 '>
@@ -95,8 +95,7 @@ const Change = () => {
                 <p>It's not us saving their lives, 
                 <br></br>
                 <span className='underline decoration-[#623CEA] font-normal'>it's you.</span>
-                <br></br>
-                    <span className='text-[#DBD5B2] uppercase font-bold'>Save Lives With Us</span></p>
+               </p>
             </div>
         </div>
 </div>
@@ -121,7 +120,7 @@ const Change = () => {
 
 {/* Rabies */}
   <div className='w-full  pl-10 pr-10 md:pl-20 md:pr-20 pb-10 pt-20 bg-gradient-to-b from-[#E7DFC6] to-[#E9F1F7]'>
-    <div className='border-r border-2 border-[#DBD5B2] flex flex-col md:flex-row justify-center rounded'>
+    <div className='border-r border-2 border-[#623CEA] flex flex-col md:flex-row justify-center rounded'>
       
       <div className='flex justify-center items-center md:w-1/2 p-10'>
           <div className='flex flex-col justify-center'>

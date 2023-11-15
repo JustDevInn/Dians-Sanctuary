@@ -70,7 +70,7 @@ const Footer = () => {
                 <ul>
                     <li className='pl-2' text-sm>Ibu Sri</li>
                     <li className='pl-2' text-sm>+20388010293</li>
-                    <h6 className="font-medium text-gray-400">Address</h6>
+                    <h6 className="font-medium text-[#623CEA]">Address</h6>
                     <li className='pl-2' text-sm>Bali 82121</li>
                     <li className='pl-2' text-sm>Tabanan, Kabupaten <br></br>Tabanan</li>
                     <li className='pl-2' text-sm>Jl. Darmawangsa No.7, <br></br>Delod Peken, Kec.</li>
