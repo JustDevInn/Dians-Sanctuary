@@ -33,13 +33,13 @@ const Home = () => {
     {/* About us */}
     <div className='w-full h-screen md:px-20 flex justify-center items-center bg-gradient-to-b from-[#E7DFC6] to-[#E9F1F7] tracking-wider'>
       <div className='max-w-[1240px] grid md:grid-cols-2 '>
-        <img src={Chewy} alt="Chewy-friend" className=' w-full mx-auto md:px-2'/>
+        <img src={Chewy} alt="Chewy-friend" className='hidden md:block w-full mx-auto md:px-2'/>
         <div className='flex flex-col justify-center align-center md:px-2 mt-10'>
           <p className='text-[#54426B] text-2xl tracking-wider font-normal  p-2 '>About us</p>
-          <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-[#623CEA]  pl-2'>A sanctuary for all animals.</h1>
+          <h1 className='md:text-4xl sm:text-3xl text-4xl font-thin py-2 text-[#623CEA]  pl-2'>A sanctuary for all animals.</h1>
           <p className='text-[#54426B] font-thin  p-2'>"When we learn to <a href='/' class="underline decoration-[#623CEA] ">respect</a> all life,<br></br>
               we learn to <a href='/' class="underline decoration-[#623CEA] ">love</a> all life."</p>
-          <button className='w-[150px] my-3 py-3 ml-10 bg-[#54426B] text-[#E7DFC6] tracking-widest  font-bold hover:bg-[#E7DFC6] hover:text-[#54426B] border-2 border-[#54426B] uppercase'>
+          <button className='w-[150px] my-5 py-3 ml-10 bg-[#54426B] text-[#E7DFC6] tracking-widest  font-bold hover:bg-[#E7DFC6] hover:text-[#54426B] border-2 border-[#54426B] uppercase'>
           <Link to="/about" onClick={scrollToTop}>Read more..</Link> </button>
         </div>
       </div>
@@ -68,7 +68,7 @@ const Home = () => {
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-6">
             
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'> 
-                <img src={Dog1} alt="Dog" className='object-cover h-48 w-96 mx-auto mt-[-3rem] bg-white rounded-lg'/>
+                <img src={Dog1} alt="Dog" className=' object-cover h-48 w-96 mx-auto mt-[-3rem] bg-white rounded-lg'/>
                 <p className='text-xl font-thin text-center py-8'>Beethoven</p>
                 <p className='text-center text-4xl font-normal uppercase'>Bobby</p>
                 <div className='text-left font-thin'>
